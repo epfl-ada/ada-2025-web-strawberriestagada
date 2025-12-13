@@ -154,6 +154,8 @@ Interestingly, religious language in attacks correlates with increased social la
 ## Response to Conflict Analysis
 *TODO: structure ?*
 
+This section examines how a subreddit under attack may respond to the attacking subreddit, considering the characteristics of the attacking hyperlinks' comments. The analyses performed here are similar to those performed for the general case, but are applied only to outgoing subreddit activities directed toward the attacker within a 72-hour window after the incoming conflict. 
+
 
 ## Random Forest Analysis
 *TODO: structure ?*
