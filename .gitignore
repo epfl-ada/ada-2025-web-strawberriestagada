@@ -10,5 +10,6 @@ ehthumbs.db
 
 Gemfile.lock
 .bundle/
+.jekyll-metadata
 
 beautiful-jekyll-theme-*.gem
