@@ -129,20 +129,34 @@ The recovery histogram below shows how long these linguistic disruptions typical
 
 {% include_relative figs/recovery_histogram.html %}
 
-Agreement, disagreement, and anxiety show the fastest recovery (11.6 hours), demonstrating resilience in these communication functions. However, the high rates of non-recovery for cognitive and social language functions suggest that attacks may cause lasting changes in how communities process information and interact socially.
-
-While the immediate emotional spike of negativity and anxiety is short-lived, the most significant impact of a hostile post is the long-term reduction in social and analytical language use. This suggests that communities may not only be "hurt" in the short term but can be fundamentally altered, becoming less cohesive and less thoughtful in their discourse long after the initial attack has passed.
+Agreement, disagreement, and anxiety show the fastest recovery (11.6 hours), demonstrating resilience in these communication functions. However, the high rates of non-recovery for cognitive and social language functions suggest that attacks may cause lasting changes in how communities process information and interact socially. While the immediate emotional spike of negativity and anxiety is short-lived, the most significant impact of a hostile post is the long-term reduction in social and analytical language use. This suggests that communities may not only be "hurt" in the short term but can be fundamentally altered, becoming less cohesive and less thoughtful in their discourse long after the initial attack has passed.
 
 
 ## The Contagion of Conflict: How Attacker Language Shapes Victim Response?
 
+When one community attacks another, the emotional tone of the assault itself may determine how deeply the target is wounded. We investigated whether specific linguistic features in hostile posts act as psychological triggers that create predictable patterns in how victim communities respond. We used correlation analysis across multiple time segments to trace how the emotional and cognitive composition of an attack influences subsequent linguistic shifts in the targeted community. The visualization below shows which attacker features have the strongest ripple effect.
+
 {% include_relative figs/attack_LIWC_correlation.html %}
 
+Our analysis reveals that profanity is the most powerful linguistic trigger in attacks, with swear words in hostile posts having the strongest influence on victim responses.
 
-## Analysis of Response to Conflict
+{% include_relative figs/influential_attack.html %}
+
+The data clearly shows patterns of emotional contagion and behavioral mirroring:
+
+- Swear words in attacks trigger anger responses: the strongest correlation (r = 0.021) links attacker profanity to increased anger language in victim communities,
+- Victims mirror profanity: target communities significantly increase their own swear word usage when attacked with profanity (r = 0.020),
+- Sexual language escalates: attacks containing profanity also correlate with increased sexual language in responses (r = 0.019).
+
+Interestingly, religious language in attacks correlates with increased social language in victim responses (r = 0.017). This suggests that communities may respond to religiously themed attacks by strengthening social bonds. Conversely, sadness in attacks correlates with reduced social language in targets (r = -0.016), indicating that emotionally vulnerable attacks may suppress community engagement. Although these correlations are statistically significant, the effect sizes are generally small. This suggests that, although attacker language influences victim responses, the relationship is subtle and mediated by many other factors. 
+
+
+## Response to Conflict Analysis
+*TODO: structure ?*
 
 
 ## Random Forest Analysis
+*TODO: structure ?*
 
 
 # Snowball Effect: ...
